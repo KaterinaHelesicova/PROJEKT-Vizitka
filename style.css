@@ -5,10 +5,12 @@ html { box-sizing: border-box; }
 html{
     font-family:'Nunito', sans-serif;
 }
+
 body{
     margin: 150px;
    
 }
+
 .background{
     background-color:#b2bec3;
 }
@@ -22,6 +24,7 @@ h1{
     padding: 0;
     font-size: 36px;
 }
+
 .header{
     color: #d63031;
     font-weight: bold;
@@ -43,13 +46,14 @@ p{
     box-shadow: 3px 3px 6px gray;
     position: relative;
 }
+
 .eliska{
     border-radius: 50%;
     position:absolute;
     top: -75px;
     left:475px;
-    z-index: 1;
 }
+
 a{
     color: white;
     text-decoration: none;
@@ -75,7 +79,6 @@ a{
   background-color: #0b7bc1;
 }
 
-
 .facebook{
     text-align: center;
     background-color:#3b5998;
@@ -91,6 +94,7 @@ a{
     margin-top: 5px; 
     margin-left: 30px;
 }
+
 .facebook:hover{
         background-color: #2b406e;
 }
