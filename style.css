@@ -13,16 +13,10 @@ body{
     background-color:#b2bec3;
 }
 
-.eliska{
-    border-radius: 50%;
-    border-color: white;
-    border-width: 3px;
-    position: relative;
-    bottom: 75px;
-    left:475px;
-      
-    
+img{
+    border: 3px solid white;
 }
+
 h1{
     margin: 0;
     padding: 0;
@@ -40,7 +34,7 @@ p{
     margin: 0;
 }
 
-div{
+.box{
     background-color: white;
     width: 550px;
     margin:auto;
@@ -48,35 +42,46 @@ div{
     border-radius: 10px;
     box-shadow: 3px 3px 6px gray;
     position:relative;
-
- 
 }
+.eliska{
+    border-radius: 50%;
+    position:absolute;
+    right: 0%;
+    top:0px;
+    
+    
 
+  
+   /* position: absolute;
+    bottom: -75px;
+    left:475px;
+    z-index: 1;*/
+}
 a{
     color: white;
     text-decoration: none;
     display: inline-block;
-
-    
+    width: 490px;
 }
+
 .twitter{
     text-align: center;
     background-color:#1da1f2;
     font-size:18px;
     font-weight: bold;
     border-radius: 5px;
+    border:none;
     font-variant-caps: all-small-caps;
     width: 490px;
     padding-top: 10px;
     padding-bottom: 10px; 
-     
+    margin-left: 30px;
 }
 
-.twitter:active{
+.twitter:hover{
   background-color: #0b7bc1;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
 }
+
 
 .facebook{
     text-align: center;
@@ -84,17 +89,17 @@ a{
     font-size:18px;
     font-weight: bold;
     border-radius: 5px;
+    border: none;
     font-variant-caps: all-small-caps;
     width: 490px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 30px;   
     margin-top: 5px; 
+    margin-left: 30px;
 }
-.facebook:active{
+.facebook:hover{
         background-color: #2b406e;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
 }
 
 /*
