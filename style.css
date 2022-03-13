@@ -2,6 +2,101 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+html{
+    font-family:'Nunito', sans-serif;
+}
+body{
+    margin: 150px;
+   
+}
+.background{
+    background-color:#b2bec3;
+}
+
+.eliska{
+    border-radius: 50%;
+    border-color: white;
+    border-width: 3px;
+    position: relative;
+    bottom: 75px;
+    left:475px;
+      
+    
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
+.header{
+    color: #d63031;
+    font-weight: bold;
+    padding: 30px;
+}
+
+p{
+    font-size: 18px;
+    padding: 0 30px 30px 30px;
+    margin: 0;
+}
+
+div{
+    background-color: white;
+    width: 550px;
+    margin:auto;
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px gray;
+    position:relative;
+
+ 
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+
+    
+}
+.twitter{
+    text-align: center;
+    background-color:#1da1f2;
+    font-size:18px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-variant-caps: all-small-caps;
+    width: 490px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+     
+}
+
+.twitter:active{
+  background-color: #0b7bc1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.facebook{
+    text-align: center;
+    background-color:#3b5998;
+    font-size:18px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-variant-caps: all-small-caps;
+    width: 490px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;   
+    margin-top: 5px; 
+}
+.facebook:active{
+        background-color: #2b406e;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+}
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
@@ -12,5 +107,6 @@ tlačítko Twitter aktivní:	 #0b7bc1
 
 tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
+font-family: 'Nunito', sans-serif;
 */
 
